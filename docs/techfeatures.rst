@@ -22,7 +22,6 @@ MMPA
 Mini-Max Polynomial Approximation (`MMPA <https://doi.org/10.1016/j.anucene.2015.02.015>`_) of matrix exponential can be used in ORILL.
 It is extremely simple to code on sparse matrix, and has several advantages over Chebyshev Rational Approximation Method (CRAM).
 MMPA method is very stable.
-
 It is described by Yosuke Kawamoto and al.,
 *Numerical solution of matrix exponential in burn-up equation using mini-max polynomial approximation,
 Annals of Nuclear Energy, Volume 80, 2015, Pages 219-224*.
