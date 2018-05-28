@@ -13,4 +13,4 @@ Based on neutron flux at each time period, ORILL© compute:
   further shielding studies
 
 ORILL compute sets of nuclides and/or elements. Elements are automatically converted
-into nuclides according natural abundance (`IUPAC <https://iupac.org/>`_)
+into nuclides according natural abundance (`IUPAC <https://iupac.org/>`_.)
