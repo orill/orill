@@ -1,6 +1,7 @@
 Authors
 -------
 
+.. image:: https://www.ill.eu/typo3conf/ext/e_magineurs/ILL/Resources/Public/Images/logo-ILL.png
 
 
 ````
