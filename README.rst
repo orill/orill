@@ -12,7 +12,7 @@ General Features
 
 :Small and fast: Code and nuclear data are small (about 4 Mo), computation takes few seconds.
 :Portability: Based on Python 2.7+ with only Numpy and Scipy main modules. Optimized execution (vectorization, parallelization) associated with Python implementation is therefore transparently available on all platforms.
-:User friendly: The code is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. Unlike heavy machinery (FISPACT, CINDER, SERPENT, ORIGEN, VESTA, MURE,...) ORILL is usable by everyone for 1D point-flux calculation at the speed of light.
+:User friendly: The code is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. Unlike heavy machinery (FISPACT, CINDER, SERPENT, ORIGEN, VESTA, MURE, ...) ORILL is usable by everyone for 1D point-flux calculation at the speed of light.
 
 Prerequisites
 -------------
