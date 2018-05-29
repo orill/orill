@@ -5,7 +5,7 @@ Nuclear Data
 Libraries
 ---------
 
-ORILL© data are parsed from evaluated libraries in ENDF-6 or ACE format by using the `PyNE <https://pyne.io/>`_
+ORILL Code data are parsed from evaluated libraries in ENDF-6 or ACE format by using the `PyNE <https://pyne.io/>`_
 toolkit. Parsing features are not provided with ORILL public version. However, data provided with public ORILL have been selected from several libraries in order to cover a wide range of situations:
 
  - Nuclide set consists of 3820 nuclides from the US Evaluated Nuclear Data `ENDF/B-VII.1 <http://www.nndc.bnl.gov/endf/b7.1/>`_ decay sub-library (**only childs with branching ratios > 0.1% are selected**)
@@ -28,6 +28,7 @@ These coefficient are therefore much more conservative than in the ICRP 72.
 Warning
 -------
 
-ORILL© public version is provided for educational purpose, with limited nuclear data.
+ORILL Code public version is provided for educational purpose, with limited nuclear data.
+Additional data is available for individuals or institutions that would like to collaborate.
 
 
