@@ -44,11 +44,11 @@ We have a mailing list located at: project@google-groups.com
 License
 -------
 
-ORILL software is for educational purpose only. Please read ORILL documentation.
+**© Copyright 2017-2018**, Franck CHANTELOUP, all rights reserved. ORILL Code is for educational purpose.
 
-**© Copyright 2017-2018**, Franck CHANTELOUP, all rights reserved.
+````
 
-Redistribution and use in source and binary forms, with or without modification,
+Redistribution and use in source and binary forms, **without** modification,
 are permitted provided that the following conditions are met:
 
 1. Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
