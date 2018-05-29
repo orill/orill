@@ -5,14 +5,14 @@ ORILL Code
 Purpose
 -------
 
-ORILL Code is a 1D transmutation, fuel depletion, and radiological protection code useful for nuclear research reactors design and operational safety. ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France. Actually, there is a need for such a pocket tool, which is not addressed by available heavy codes (FISPACT, CINDER, SERPENT, ORIGEN, VESTA, MURE, ...).
+ORILL Code is a 1D transmutation, fuel depletion, and radiological protection code useful for nuclear research reactors design and operational safety. ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France. 
 
 General Features
 ----------------
 
-:Small and fast: Code and nuclear data are small (about 4 Mo), computation takes few seconds.
-:Portability: Based on Python 2.7+ with only Numpy and Scipy main modules. Optimized execution (vectorization, parallelization) associated with Python implementation is therefore transparently available on all platforms.
-:User friendly: The code is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. Unlike heavy machinery (FISPACT, CINDER, SERPENT, ORIGEN, VESTA, MURE, ...) ORILL is usable by everyone for 1D point-flux calculation at the speed of light.
+:Small: Code and nuclear data are small (only 4 Mo)
+:Fast: Vectorization and parallelization associated with Scipy is transparently available.
+:User friendly: ORILL is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. It is usable by everyone for 1D point-flux calculation at the speed of light.
 
 Prerequisites
 -------------
