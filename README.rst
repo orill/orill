@@ -10,7 +10,7 @@ ORILL Code is a 1D transmutation, fuel depletion, and radiological protection co
 General Features
 ----------------
 
-:Small: Code and nuclear data are small (only 4 Mo)
+:Small: Code and nuclear data are small (only 4 Mo).
 :Fast: Vectorization and parallelization associated with Scipy is transparently available.
 :User friendly: ORILL is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. It is usable by everyone for 1D point-flux calculation at the speed of light.
 
@@ -24,22 +24,22 @@ Installation
 
 Uncompress ORILL files in a directory where a Python 2.7+ shell is available (with Numpy and Scipy). In the Python shell, type:
 
->>> import ORILL
->>> ORILL(input='ORILL.yml')
+>>> from ORILL import ORILL_CODE
+>>> ORILL_CODE('ORILL_TEST.yml')
 
-The command input file 'ORILL.yml' located in (/input) subdirectory is processed and the corresponding output files are created in (/output) subdirectory. Have a look at ORILL.yml file to understand the file syntax. It is recommended to edit this file with `Medit <http://https://packages.debian.org/medit>`_ or `Notepad++ <https://notepad-plus-plus.org/>`_ with the `YAML <https://en.wikipedia.org/wiki/YAML>`_ markup language.
+The command input file 'ORILL_TEST.yml' located in (/input) subdirectory is processed and the corresponding output files are created in (/output) subdirectory. Have a look at ORILL.yml file to understand the file syntax. It is recommended to edit this file with `Notepad++ <https://notepad-plus-plus.org/>`_ with the `YAML <https://en.wikipedia.org/wiki/YAML>`_ markup language.
 
 
 Contribute
 ----------
 
-If you want to contribute, let us know.We have a mailing list located at: project@google-groups.com
+If you want to contribute, let us know.We have a mailing list located at: orill_code@googlegroups.com
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+We have a mailing list located at: orill_code@googlegroups.com
 
 License
 -------
