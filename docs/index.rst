@@ -12,7 +12,7 @@ the prefix “OR” is a tribute to the excellent `ORIP_XXI <http://www.oecd-nea
 freeware from *E.G.Romanov, V.A.Tarasov, F.Z.Vahetov,
 Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
 
-Contents:
+
 
 .. toctree::
    :maxdepth: 2
@@ -22,9 +22,4 @@ Contents:
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
 
