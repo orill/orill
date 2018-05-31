@@ -13,8 +13,8 @@ freeware from *E.G.Romanov, V.A.Tarasov, F.Z.Vahetov,
 Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
 
-
+   *
 
