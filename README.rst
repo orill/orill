@@ -1,6 +1,6 @@
-==========
-ORILL Code
-==========
+===========================================
+`ORILL Code <http://orill.readthedocs.io>`_
+===========================================
 
 Purpose
 -------
@@ -27,7 +27,7 @@ Uncompress ORILL files in a directory where a Python 2.7+ shell is available (wi
 >>> from ORILL import ORILL_CODE
 >>> ORILL_CODE('ORILL_TEST.yml')
 
-The command input file 'ORILL_TEST.yml' located in (/input) subdirectory is processed and the corresponding output files are created in (/output) subdirectory. Have a look at ORILL.yml file to understand the file syntax. It is recommended to edit this file with `Notepad++ <https://notepad-plus-plus.org/>`_ with the `YAML <https://en.wikipedia.org/wiki/YAML>`_ markup language.
+The command input file 'ORILL_TEST.yml' located in (/input) subdirectory is processed and the corresponding output files are created in (/output) subdirectory. Have a look at ORILL_TEST.yml file to understand the file syntax. It is recommended to edit this file with `Notepad++ <https://notepad-plus-plus.org/>`_ with the `YAML <https://en.wikipedia.org/wiki/YAML>`_ markup language.
 
 
 Contribute
