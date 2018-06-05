@@ -50,8 +50,8 @@ If diagonalization is impossible, the DIAG method will fail.
 Inside ORILL engine
 -------------------
 
-ORILL uses widely Python dictionaries to store data (.npy), but all data are translated into Numpy arrays and Scipy csc.cparse.matrix before hard computation.
+ORILL uses Python dictionaries, Numpy arrays and Scipy sparse matrix before hard computation.
 Nuclide names are translated in ZAAAm numbers, like 'Am-242m' in 952421, or 'He-4' in 20040.
 N nuclides in a dataset are sorted on an index [0,1,...,N-1].
-The data set is computed at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
+The dataset is computed at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
 The pure decay matrix is pre-computed since values are independent of neutron flux.
