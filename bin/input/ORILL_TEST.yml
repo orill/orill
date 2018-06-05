@@ -50,15 +50,6 @@ Depth: 6
 
 # Computation depth into chains: 6 to 12 recommanded (more depth = more nuclides = more computation time)
 
-Compute: ['DHEAT','FISPWR','GAMMAS','DOSE','PROMPTG']
-
-# Decay heat('DHEAT'), fission power('FISPWR'), gamma spectrum('GAMMAS'), dose('DOSE'), prompt gammas('PROMPTG')
-# Gamma spectrum output: .MX5 file for MicroShield V5 with energies according ICRP74 bins (MeV):
-# [0.01,0.015,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.1,0.15,0.2,0.3,0.4,0.5,0.6,0.8,1.0,2.0,4.0,6.0,8.0,10.0]
-# With 'PROMPTG' option, the gamma spectrum is calculated with decay and prompt gammas
-# With 'DOSE' option, inhalation dose (Sv) is calculated according ICRP72 and EAF2010 (adult, public)
-# With 'DOSE' option, gamma H10 values (mSv.m2/h) (1m distance) are calculated according ICRP74
-
 # ---- End of ORILL input file -------------------------------------------------------------------------------- #
 # ---- Notepad++ or Medit are recommanded to edit this YAML formated file ------------------------------------- #
 
