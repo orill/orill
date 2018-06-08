@@ -41,7 +41,7 @@ This method is generally stable, but instabilities can occur sometimes.
 DIAG
 ^^^^
 
-The DIAG method works with the diagonalization of the evolution matrix in :math:`\mathbb{C}` field, which is more general than the
+The DIAG method works with the diagonalization of the evolution matrix in **C** field, which is more general than the
 Bateman+TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
 Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
