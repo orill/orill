@@ -45,14 +45,15 @@ The DIAG method works with the diagonalization of the evolution matrix in **C** 
 Bateman+TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
 Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
-Unfortunately, burn-up matrix with too much forks and loops in he chains are not.
+Unfortunately, burn-up matrix with too much forks and loops in chains are not.
 If diagonalization is impossible, the DIAG method will fail.
 
 Inside ORILL engine
 -------------------
 
-ORILL uses Python dictionaries, Numpy arrays and Scipy sparse matrix before hard computation.
 Nuclide names are translated in ZAAAm numbers, like 'Am-242m' in 952421, or 'He-4' in 20040.
-N nuclides in a computed dataset are sorted on an index [0,1,...,N-1].
-The dataset is setteld at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
-The pure decay matrix is pre-computed since values are independent of neutron flux.
+ORILL uses Python dictionaries and Numpy arrays to process data before hard computation.
+A nuclide set is defined at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
+Nuclides in the set are sorted on an index [0,1,...,N-1], from which a sparse
+evolution matrix is build. The sparse matrix is processed with previously described numerical methods.
+At the end of a time step, the desired values are computed and the nuclide list is build back from the index.
