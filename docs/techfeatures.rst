@@ -41,10 +41,11 @@ This method is generally stable, but instabilities can occur sometimes.
 DIAG
 ^^^^
 
-The DIAG method works with the diagonalization of the evolution matrix.
+The DIAG method works with the diagonalization of the evolution matrix in ℂ field, which is more general than the
+Bateman+TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
 Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
-Unfortunately, burn-up matrix with numerous fission products are not, because of too much forks and loops inside the chains.
+Unfortunately, burn-up matrix with too much forks and loops in he chains are not.
 If diagonalization is impossible, the DIAG method will fail.
 
 Inside ORILL engine
@@ -52,6 +53,6 @@ Inside ORILL engine
 
 ORILL uses Python dictionaries, Numpy arrays and Scipy sparse matrix before hard computation.
 Nuclide names are translated in ZAAAm numbers, like 'Am-242m' in 952421, or 'He-4' in 20040.
-N nuclides in a dataset are sorted on an index [0,1,...,N-1].
-The dataset is computed at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
+N nuclides in a computed dataset are sorted on an index [0,1,...,N-1].
+The dataset is setteld at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
 The pure decay matrix is pre-computed since values are independent of neutron flux.
