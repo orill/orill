@@ -11,8 +11,8 @@ toolkit. Parsing features are not provided with ORILL public version. However, d
  - Nuclide set consists of 3820 nuclides from the US Evaluated Nuclear Data `ENDF/B-VII.1 <http://www.nndc.bnl.gov/endf/b7.1/>`_ decay sub-library (**only childs with branching ratios > 0.1%** are selected).
  - Incident neutron data cover 816 nuclides cross sections and multiplicities from the European Activation File (`EAF 2010 <https://www.oecd-nea.org/dbdata/>`_) at 293.6K: (**only (n,2n), (n,3n), (n,fission), (n,gamma), (n,p), (n,d), (n,t), (n,3He), (n,alpha)** reactions are selected).
  - Direct (independent) induced fission yields of 83 nuclides are from TENDL 2011 `TALYS <http://www.talys.eu/>`_ nuclear model code system (**only products with yields > 0.01%** are selected).
- - Effective dose coefficients for inhalation (adult, public) includes 1975 nuclides from EAF 2010 and `ICRP <http://www.icrp.org/publications.asp>`_ 72.
- - Fluence to effective dose coefficients (rotational) are from ICRP 74 (we consider ICRP 116 values for neutrons are unreliable).
+ - Effective dose coefficients for inhalation (adult, public) includes 1975 nuclides from EAF 2010 and `ICRP 72<http://www.icrp.org/publications.asp>`_.
+ - Fluence to effective dose coefficients (Hp(10), rotational) are from ICRP 74 (we consider ICRP 116 values for neutrons unreliable).
 
 The choice of EAF 2010 and TENDL 2011 instead of ENDF/B-VII.1 was made to enlarge the data set in terms of available cross sections and fission products. Moreover, independent fission yields are sometimes difficult to measure and the TALYS nuclear model has a good agreement with experimental data.
 

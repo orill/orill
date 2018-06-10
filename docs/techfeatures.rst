@@ -20,6 +20,14 @@ Evolution algorithm
 The choice of the algorithm (Bateman/TTA, LSODA, Matrix Exponential, Runge-Kutta,...) is a tricky problem in case of loops and stiffness in nuclides chains.
 After some trials, only three methods have be selected.
 
+BDF
+^^^
+
+ORILL can use the Backward Differentiation Formula
+(`BDF <https://en.wikipedia.org/wiki/Backward_differentiation_formula>`_ order 2) as provided with Scipy to solve the stiff differential equations.
+BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
+This method is generally stable, but instabilities can occur sometimes.
+
 MMPA
 ^^^^
 
@@ -30,22 +38,14 @@ It is described by *Yosuke Kawamoto and al.,
 Numerical solution of matrix exponential in burn-up equation using mini-max polynomial approximation,
 Annals of Nuclear Energy, Volume 80, 2015, Pages 219-224*.
 
-BDF
-^^^
-
-ORILL can use the Backward Differentiation Formula
-(`BDF <https://en.wikipedia.org/wiki/Backward_differentiation_formula>`_ order 2) as provided with Scipy to solve the stiff differential equations.
-BDF is a little bit faster than MMPA and the difference with MMPA is generally < 2%.
-This method is generally stable, but instabilities can occur sometimes.
-
 DIAG
 ^^^^
 
-The DIAG method works with the diagonalization of the evolution matrix in **C** field, which is more general than the
+The DIAG method use the diagonalization of the evolution matrix in **C** field, which is somehow equivalent to the
 Bateman+TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
 Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
-Unfortunately, burn-up matrix with too much forks and loops in chains are not.
+Unfortunately, burn-up matrix with too much loops in transmutation chains are not.
 If diagonalization is impossible, the DIAG method will fail.
 
 Inside ORILL engine
@@ -54,6 +54,6 @@ Inside ORILL engine
 Nuclide names are translated in ZAAAm numbers, like 'Am-242m' in 952421, or 'He-4' in 20040.
 ORILL uses Python dictionaries and Numpy arrays to process data before hard computation.
 A nuclide set is defined at the beginning: it depends on the problem and on the computation depth into chains (set by the user).
-Nuclides in the set are sorted on an index [0,1,...,N-1], from which a sparse
+In the set, nuclides are sorted on an index [0,1,...,N-1], from which a sparse
 evolution matrix is build. The sparse matrix is processed with previously described numerical methods.
-At the end of a time step, the desired values are computed and the nuclide list is build back from the index.
+At the end of each time step, the desired values are computed and the nuclide list is build back from the index.
