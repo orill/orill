@@ -11,12 +11,12 @@ General Features
 ----------------
 
 :Small: Code and nuclear data are small (only 4 Mo).
-:Fast: Vectorization and parallelization associated with Scipy is transparently available.
+:Fast: Vectorization and parallelization associated with Python/Scipy is transparently available.
 :User friendly: ORILL is designed to address practical questions about isotopes inventories, decay heat, dose rate, photons spectrum. It is usable by everyone for 1D point-flux calculation at the speed of light.
 
 Prerequisites
 -------------
-ORILL needs only Python 2.7 or later, with `Numpy <http://www.numpy.org/>`_, `Scipy <https://www.scipy.org/>`_ and standard modules installed (re, io, yaml, time). Python is available on all platforms (WinPhyton, MiniConda, Debian/Ubuntu).
+ORILL needs only Python 2.7 or later, with `Scipy <https://www.scipy.org/>`_ and standard modules installed (re, io, yaml, time). Python is available on all platforms (WinPhyton, MiniConda, Debian/Ubuntu, Intel Distribution,...).
 
 
 Installation
