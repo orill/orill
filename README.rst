@@ -22,7 +22,7 @@ ORILL needs only Python 2.7 or later, with `Scipy <https://www.scipy.org/>`_ and
 Installation
 ------------
 
-Uncompress ORILL files in a directory where a Python 2.7+ shell is available (with Numpy and Scipy). In the Python shell, type:
+Uncompress ORILL files in a directory where a Python 2.7+ shell is available (with Scipy). In the Python shell, type:
 
 >>> from ORILL import ORILL_CODE
 >>> ORILL_CODE('ORILL_TEST.yml')
