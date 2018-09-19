@@ -17,15 +17,15 @@ A multiplication factor can be used to adjust the fission power to the right val
 Evolution algorithm
 -------------------
 
-The choice of the algorithm (Bateman/TTA, LSODA, Matrix Exponential, Runge-Kutta,...) is a tricky problem in case of loops and stiffness in nuclides chains.
+The choice of the algorithm (Bateman/TTA, Matrix Exponential, Runge-Kutta, Adams, BDF...) is a tricky problem in case of loops and stiffness in nuclides chains.
 After some trials, only three methods have be selected.
 
 BDF
 ^^^
 
-ORILL can use the Backward Differentiation Formula
-(`BDF <https://en.wikipedia.org/wiki/Backward_differentiation_formula>`_ order 2) as provided with Scipy to solve the stiff differential equations.
-BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
+ORILL can use the Lawrence Livermore National Laboratory Fortran 77 VODE solver (ancestor of `SUNDIALS <https://computation.llnl.gov/projects/sundials/cvode>`_) with Backward Differentiation Formula (BDF)
+as provided with Python/Scipy to solve the stiff differential equations.
+VODE/BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
 This method is generally stable, but instabilities can occur sometimes.
 
 MMPA
