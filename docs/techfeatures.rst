@@ -23,7 +23,7 @@ After some trials, only three methods have be selected.
 BDF
 ^^^
 
-ORILL can use the Lawrence Livermore National Laboratory Fortran 77 VODE solver (ancestor of `SUNDIALS <https://computation.llnl.gov/projects/sundials/cvode>`_) with Backward Differentiation Formula (BDF)
+ORILL can use the LLNL Fortran77 vode.f code (ancestor of `SUNDIALS <https://computation.llnl.gov/projects/sundials/cvode>`_) with Backward Differentiation Formula (BDF)
 as provided with Python/Scipy to solve the stiff differential equations.
 VODE/BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
 This method is generally stable, but instabilities can occur sometimes.
