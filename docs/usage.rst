@@ -1,11 +1,16 @@
-=====
-Usage
-=====
+==================
+Usage and download
+==================
+
+Download
+--------
+
+ORILL will be located at `github.com/orill/orill/bin <https://github.com/orill/orill>`_
 
 Run test
 --------
 
-Uncompress ORILL files in a directory where a Python 2.7+ shell is available (with Numpy and Scipy). In the Python shell, type:
+Uncompress ORILL files in a directory where a Python 2.7+ shell is available (with Scipy). In the Python shell, type:
 
 >>> from ORILL import ORILL_CODE
 >>> ORILL_CODE('ORILL_TEST.yml')
