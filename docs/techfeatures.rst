@@ -23,11 +23,11 @@ After some trials, only three methods have be selected.
 BDF
 ^^^
 
-ORILL can use the LLNL Fortran77 vode.f code (ancestor of `SUNDIALS <https://computation.llnl.gov/projects/sundials/cvode>`_) with Backward Differentiation Formula (BDF)
+ORILL can use the old LLNL Fortran77 VODE code (`SUNDIALS <https://computation.llnl.gov/projects/sundials/cvode>`_) with Backward Differentiation Formula (BDF)
 as provided with Python/Scipy to solve the stiff differential equations.
 VODE/BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
 This method is generally stable, but instabilities can occur sometimes.
-
+s
 MMPA
 ^^^^
 
@@ -41,11 +41,11 @@ Annals of Nuclear Energy, Volume 80, 2015, Pages 219-224*.
 DIAG
 ^^^^
 
-The DIAG method use the diagonalization of the evolution matrix in **C** field, which is somehow equivalent to the
-Bateman+TTA method.
+The DIAG method uses diagonalization of the evolution matrix, which is somehow equivalent to the
+Bateman/TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
 Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
-Unfortunately, burn-up matrix with too much loops in transmutation chains are not.
+Unfortunately, burn-up matrix with loops in transmutation chains are not.
 If diagonalization is impossible, the DIAG method will fail.
 
 Inside ORILL engine
