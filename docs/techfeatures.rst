@@ -18,7 +18,7 @@ Evolution algorithm
 -------------------
 
 The choice of the algorithm (Bateman/TTA, Matrix Exponential, Runge-Kutta, Adams, BDF...) is a tricky problem in case of loops and stiffness in nuclides chains.
-After some trials, only three methods have be selected.
+After some trials, only three methods were selected.
 
 BDF
 ^^^
