@@ -27,7 +27,7 @@ ORILL can use the old LLNL Fortran77 VODE code (`SUNDIALS <https://computation.l
 as provided with Python/Scipy to solve the stiff differential equations.
 VODE/BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
 This method is generally stable, but instabilities can occur sometimes.
-s
+
 MMPA
 ^^^^
 
