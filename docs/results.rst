@@ -8,7 +8,7 @@ Based on neutron flux at each time period, ORILL Code compute:
 - fission rate and power (Fission/s, Watt)
 - decay power (Alpha, Beta, Gamma) (Watt)
 - effective dose per inhalation (Sv)
-- effective dose rate (decay and prompt gammas) at 1 m distance (mSv/h)
+- effective dose rate (decay) at 1 m distance (mSv/h)
 - gamma spectrum (decay) with `MicroShield®V5 <http://radiationsoftware.com/>`_ formatted input file for
   further shielding studies
 
