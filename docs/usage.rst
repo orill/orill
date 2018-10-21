@@ -5,7 +5,7 @@ Usage and download
 Download
 --------
 
-ORILL will be located at `Github <https://github.com/orill/orill/tree/master/bin>`_
+ORILL is located at `Github <https://github.com/orill/orill/>`_
 
 If you want to contribute, let us know.We have a mailing list located at: orill_code@googlegroups.com
 
