@@ -44,8 +44,9 @@ DIAG
 The DIAG method uses diagonalization of the evolution matrix, which is somehow equivalent to the
 Bateman/TTA method.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
-Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are often diagonalizable.
-Unfortunately, burn-up matrix with loops in transmutation chains are not.
+Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are diagonalizable.
+Unfortunately, burn-up matrix have loops in transmutation chains due to neutron absorbtion and are not
+diagonalizable.
 If diagonalization is impossible, the DIAG method will fail.
 
 Inside ORILL engine
