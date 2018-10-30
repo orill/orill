@@ -41,15 +41,17 @@ Annals of Nuclear Energy, Volume 80, 2015, Pages 219-224*.
 DIAG
 ^^^^
 
-The DIAG method uses diagonalization of the evolution matrix, which is somehow equivalent to the
-Bateman/TTA method.
+The DIAG method uses diagonalization of the evolution matrix in **C** field, which is a more general
+analytical method than the classic Bateman / TTA.
 If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
-Then, computing nuclides at numerous time steps is very easy. Pure decay matrix are diagonalizable.
-Unfortunately, burn-up matrix have loops in transmutation chains due to neutron absorbtion and are not
-diagonalizable.
+A decay matrix is always diagonalizable because
+there is no loop and it can be rearranged in a lower triangular matrix with its real eigenvalues
+on the diagonal.
+Unfortunately, large burn-up matrix with loops in transmutation chains due to neutron absorbtion are not
+always diagonalizable in **C** field with enough accuracy.
 If diagonalization is impossible, the DIAG method will fail.
 
-Inside ORILL engine
+Inside ORILL engine 
 -------------------
 
 Nuclide names are translated in ZAAAm numbers, like 'Am-242m' in 952421, or 'He-4' in 20040.
