@@ -43,7 +43,7 @@ DIAG
 
 The DIAG method uses diagonalization of the evolution matrix in **C** field, which is a more general
 analytical method than the classic Bateman / TTA.
-If diagonalization is possible, each eigenvalue is the decay constant of the corresponding eigenvector.
+If diagonalization is possible, each eigenvalue is the pseudo decay constant of the corresponding eigenvector.
 A decay matrix is always diagonalizable because
 there is no loop and it can be rearranged in a lower triangular matrix with its real eigenvalues
 on the diagonal.
