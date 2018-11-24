@@ -39,7 +39,7 @@ Have a look at 'ORILL_TEST.yml' file to understand the file syntax. It is recomm
   
   # Valide nuclides names are: 'U','PU239','94Pu238','PU-240','Bi-194m','BI194M2','83-BI-194m2',...
   # Names are not case sensitive, metastable states are m = m1, m2, m3
-  # Elements like 'U','Al','Ni' are converted into isotopes (according natural abundance mass fraction)
+  # Elements like 'U','Al','Ni' are converted into isotopes (according natural abundance fraction)
   
   Mass: 10.0
   Unit: 'w'
