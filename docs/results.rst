@@ -9,7 +9,7 @@ Based on neutron flux at each time period, ORILL Code compute:
 - decay power (Alpha, Beta, Gamma) (Watt)
 - effective dose per inhalation (Sv)
 - effective dose rate (decay) at 1 m distance (mSv/h)
-- gamma spectrum (decay) with `MicroShield®V5 <http://radiationsoftware.com/>`_ formatted input file for
+- gamma spectrum (decay and `PGAA <https://www-nds.iaea.org/pgaa/>`_) with `MicroShield®V5 <http://radiationsoftware.com/>`_ formatted input file for
   further shielding studies
 
 ORILL Code compute sets of nuclides and/or elements. Elements are automatically converted
