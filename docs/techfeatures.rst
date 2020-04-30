@@ -8,7 +8,7 @@ Neutron flux spectrum
 The neutron flux is specially formatted in:
 
  - 1-point **thermal** flux at **0.0253 eV**
- - 2-points **fast** flux at **0.5 MeV** and **14 MeV**
+ - 2-points **fast** flux at **neutron fission spectrum average (U-235)** and **14 MeV**
  
 For thermal and cold neutrons transmutation, only the thermal value is useful.
 For fuel depletion, only the relative values of thermal and fast neutrons are useful (because of threshold reactions).
