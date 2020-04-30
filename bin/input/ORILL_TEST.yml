@@ -2,7 +2,7 @@
 # ---- ORILL version 1.0 -------------------------------------------------------------------------------------- #
 # ---- ORILL Code is for educational purpose. Please read ORILL documentation --------------------------------- #
 # ------------------------------------------------------------------------------------------------------------- #
-# ---- Copyright 2017-2018, Franck Chanteloup @ Institue Laue-Langevin - All rights reserved. ----------------- #
+# ---- Copyright 2017-2020, Franck Chanteloup @ Institue Laue-Langevin - All rights reserved. ----------------- #
 # Redistribution and use in source and binary forms, with or without modification, are
 # permitted provided that the following conditions are met:
 # 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
@@ -18,37 +18,38 @@
 # ------------------------------------------------------------------------------------------------------------- #
 
 Flux: [1.0e+14, 1.0e+14, 1.0e+14]
-
-# 3-points flux at [0.0253 eV, 0.5 MeV, 14.0 MeV] (neutron/cm2/s)
+# 3-points flux [0.0253 eV, fission average (2 Mev), 14.0 MeV] (neutron/cm2/s)
 # Fuel depletion: 3-points flux values, adjust the flux multiplier in "Periods:" to adequate Fission Power
-# Transmutation with cold neutrons only: adjust thermal flux with wavelength(cold)/wavelenght(T) factor [adjusted_thermal_flux, 0.0, 0.0]
+# Transmutation with cold neutrons only: adjust thermal flux with wavelength(cold)/wavelenght(T) factor:
+# Flux = [adjusted_thermal_flux, 0.0, 0.0]
 
 Nuclides:
- Cl: 0.1
- Na: 0.1
+ Al: 1.0
  U-235: 0.1
-
 # Valide nuclides names are: 'U','PU239','94Pu238','PU-240','Bi-194m','BI194M2','83-BI-194m2',...
 # Names are not case sensitive, metastable states are m = m1, m2, m3
 # Elements like 'U','Al','Ni' are converted into isotopes (according natural abundance mass fraction)
 
-Mass: 10.0
-Unit: 'w'
-
+Mass: 100.0
 # Mass (total, grams) used only if Unit = 'w'
+Unit: 'w'
 # Unit for nuclides set: mass fraction('w'), grams('g'), mol('mol'), atoms('atm'), becquerels('bq')
 
-Periods: [['Period1', [3600], 1.0, 'MMPA'], ['Period2', [1.0e+3,1.0e+4,1.0e+5], 0.0, 'DIAG']]
+Periods: [['P_1', [3600], 1.0, 'BDF'], ['P_2', [1.0e+3,1.0e+4,1.0e+5], 0.0, 'DIAG']]
 
-# [['Identifier', [Duration(s),...], Flux multiplyer, 'Method'],...]
-# 'Identifier' is used to identifiy output files on each period
-# [Duration(s),...] are durations steps to compute in each period
-# Flux multiplyer: 1.0 (full flux), 0.0 (zero flux, pure decay), 0.5 (50% flux)
-# 'Method' are: 'MMPA', 'BDF' or 'DIAG'
+# [['ID', [Duration(s),...], Flux multiplyer, Method],...]
+# The ID is used to identifiy output files, time in seconds
+# Possible computation methods are: 'MMPA', 'BDF' or 'DIAG'
+Depth: 8
+# Computation depth into chains, 6 to 12 recommanded (more depth = more nuclides = more computation time)
 
-Depth: 6
-
-# Computation depth into chains: 6 to 12 recommanded (more depth = more nuclides = more computation time)
+Compute: ['DHEAT','FISPWR','GAMMAS','DOSE','PROMPTG']
+# Decay heat('DHEAT'), fission power('FISPWR'), gamma spectrum('GAMMAS'), dose('DOSE'), prompt gammas('PROMPTG')
+# Gamma spectrum output: .MX5 file for MicroShield V5 with energies according ICRP74 bins (MeV):
+# [0.01,0.015,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.1,0.15,0.2,0.3,0.4,0.5,0.6,0.8,1.0,2.0,4.0,6.0,8.0,10.0]
+# With 'PROMPTG' option, the gamma spectrum is calculated with decay and prompt gammas
+# With 'DOSE' option, inhalation dose (Sv) is calculated according ICRP72 and EAF2010 (adult, public)
+# With 'DOSE' option, gamma H10 values (mSv.m2/h) (1m distance) are calculated according ICRP74
 
 # ---- End of ORILL input file -------------------------------------------------------------------------------- #
 # ---- Notepad++ or Medit are recommanded to edit this YAML formated file ------------------------------------- #
