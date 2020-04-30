@@ -1,0 +1,32 @@
+5.00 Description: ORILL Code - (c) 2017-2020
+ 1 
+1 : Indicator for Ci or Photons/sec
+1 : Geometry factor (point, cm, cm^2, or cm^3)
+0 : Number of nuclides in file.
+Nuclide Index Ci            Nuclide Name
+Energy        Activity (Photons/sec)
+0.010         1.158e+08     Energy # 1
+0.015         2.419e+09     Energy # 2
+0.020         3.754e+07     Energy # 3
+0.030         3.057e+10     Energy # 4
+0.040         7.516e+09     Energy # 5
+0.050         6.643e+10     Energy # 6
+0.060         1.166e+11     Energy # 7
+0.070         2.756e+09     Energy # 8
+0.080         1.281e+11     Energy # 9
+0.100         5.902e+10     Energy # 10
+0.150         7.050e+11     Energy # 11
+0.200         1.808e+12     Energy # 12
+0.300         6.609e+11     Energy # 13
+0.400         2.553e+11     Energy # 14
+0.500         1.511e+12     Energy # 15
+0.600         2.356e+12     Energy # 16
+0.800         2.050e+12     Energy # 17
+1.000         1.292e+12     Energy # 18
+2.000         5.506e+11     Energy # 19
+4.000         3.137e+08     Energy # 20
+0.000         0.000e+00     Energy # 21
+0.000         0.000e+00     Energy # 22
+0.000         0.000e+00     Energy # 23
+0.000         0.000e+00     Energy # 24
+0.000         0.000e+00     Energy # 25
