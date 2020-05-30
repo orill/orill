@@ -27,7 +27,7 @@ ORILL Data View
 ---------------
 
 ORILLDataView.exe is a graphical user interface to vizualize ORILL nuclear data.
-.. image:: \ORILLDataView.jpg
+.. image:: ORILLDataView.png
 
 Warning
 -------
