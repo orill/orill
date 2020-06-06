@@ -45,7 +45,7 @@ The DIAG method uses diagonalization of the evolution matrix in **C** field, whi
 analytical method than the classic Bateman / TTA.
 If diagonalization is possible, each eigenvalue is the pseudo decay constant of the corresponding eigenvector.
 A decay matrix is always diagonalizable because
-it hasn't any loop and it can be rearranged in a lower triangular matrix with its real eigenvalues
+it hasn't any loop and it can be rearranged into a lower triangular matrix with its real eigenvalues
 on the diagonal.
 Unfortunately, large burn-up matrix with loops in transmutation chains due to neutron absorbtion are not
 always diagonalizable in **C** field with enough accuracy.
