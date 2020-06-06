@@ -6,9 +6,9 @@ Based on neutron flux at each time period, ORILL Code compute:
 
 - nuclides inventory after irradiation (Atom, Becquerel, Gram)
 - fission rate and power (Fission/s, Watt)
-- decay power (Alpha, Beta, Gamma) (Watt)
+- decay power (Nucleon, Electron, Photon) (Watt)
 - effective dose per inhalation (Sv)
-- effective dose rate (decay) at 1 m distance (mSv/h)
+- decay effective gamma dose rate (mSv/h.cm2)
 - gamma spectrum (decay and `PGAA <https://www-nds.iaea.org/pgaa/>`_) with `MicroShield®V5 <http://radiationsoftware.com/>`_ formatted input file for
   further shielding studies
 
