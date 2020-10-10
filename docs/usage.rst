@@ -28,7 +28,7 @@ Have a look at 'ORILL_TEST.yml' file to understand the file syntax. It is recomm
   
   Flux: [1.0e+14, 1.0e+14, 1.0e+14]
   
-  # 3-points flux at [0.0253 eV, fission spectrum average (2 Mev), 14.0 MeV] (neutron/cm2/s)
+  # 3-points flux at [0.0253 eV, fission spectrum average (U-235), 14.0 MeV] (neutron/cm2/s)
   # Fuel depletion: 3-points flux values, adjust the flux multiplier in "Periods:" to adequate Fission Power
   # Transmutation with cold neutrons only: adjust thermal flux with wavelength(cold)/wavelenght(T) factor [adjusted_thermal_flux, 0.0, 0.0]
   
