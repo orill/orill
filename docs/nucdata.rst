@@ -26,7 +26,7 @@ These coefficient are therefore much more conservative than in the ICRP 72.
 ORILL Data Viewer
 -----------------
 
-ORILLDataView.exe is a graphical user interface to visualize ORILL nuclear data. A demo program for Windows can be found `here <https://github.com/orill/orill/blob/master/bin/ORILLDataSetup.exe>`_. 
+ORILLData.exe is a graphical user interface to visualize ORILL nuclear data. A demo program for Windows can be found here: `ORILLData.exe <https://github.com/orill/orill/raw/master/bin/ORILLDataSetup.exe>`_. 
 
 .. image:: ORILLDataView.jpg
 
