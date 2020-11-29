@@ -11,7 +11,7 @@ toolkit. Parsing features are not provided with ORILL public version. However, d
  - Nuclide set consists of 3851 nuclides from the European Nuclear Data `JEFF-3.3 <https://www-nds.iaea.org/public/download-endf/JEFF-3.3/>`_ decay sub-library.
  - Incident neutron data cover 816 nuclides cross sections and multiplicities from the European Activation File (`EAF 2010 <https://www-nds.iaea.org/public/download-endf/EAF-2010/>`_) at 293.6K: (**only (n,2n), (n,3n), (n,fission), (n,gamma), (n,p), (n,n+p), (n,d), (n,t), (n,3He), (n,alpha), (n,n+alpha)** reactions are selected).
  - Direct (independent) induced fission yields of 83 nuclides are from TENDL 2011 `TALYS <http://www.talys.eu/>`_ nuclear model code system (**only products with yields > 0.01%** are selected).
- - Effective dose coefficients for inhalation (adult, public) includes 1975 nuclides from EAF 2010 and `ICRP 72 <http://www.icrp.org/publications.asp>`_.
+ - Effective dose coefficients for inhalation (adult, public) includes 1975 nuclides from EAF 2010 and `ICRP 72 <http://www.icrp.org/publication.asp?id=ICRP%20Publication%2072>`_.
  - Fluence to effective dose coefficients (H*(10)) are from ICRP 74 (we consider ICRP 116 values questionable).
 
 The choice of EAF 2010 and TENDL 2011 was made to enlarge the data set in terms of available cross sections and fission products (independent fission yields).
