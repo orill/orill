@@ -28,7 +28,7 @@ ORILL Data Viewer
 
 ORILLData.exe is a graphical user interface to visualize ORILL nuclear data. A demo program for Windows can be found here: `ORILLData.exe <https://github.com/orill/orill/raw/master/bin/ORILLDataSetup.exe>`_. 
 
-.. image:: ORILLDataView.jpg
+.. image:: ORILLData.jpg
 
 Warning
 -------
