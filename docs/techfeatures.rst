@@ -23,7 +23,7 @@ After some trials, only three methods were selected.
 BDF
 ^^^
 
-ORILL can use the F77 vode.f code (Brown, Byrne, Hindmarsh, 1989) with Backward Differentiation Formula (BDF)
+ORILL can use the F77 (`VODE <http://dx.doi.org/10.1137/0910062>`_) code (Brown, Byrne, Hindmarsh, 1989) with Backward Differentiation Formula (BDF)
 as provided with Python/Scipy to solve the stiff differential equations.
 VODE/BDF is faster than MMPA on old CPU and the difference with MMPA is generally < 2%.
 This method is generally stable, but instabilities can occur sometimes.
@@ -31,7 +31,7 @@ This method is generally stable, but instabilities can occur sometimes.
 MMPA
 ^^^^
 
-Mini-Max Polynomial Approximation (`MMPA <https://doi.org/10.1016/j.anucene.2015.02.015>`_) of matrix exponential can be used in ORILL.
+Mini-Max Polynomial Approximation (`MMPA <http://dx.doi.org/10.1016/j.anucene.2015.02.015>`_) of matrix exponential can be used in ORILL.
 It is extremely simple to code on sparse matrix, and has several advantages over Chebyshev Rational Approximation Method (CRAM).
 MMPA method is very stable.
 It is described by *Yosuke Kawamoto and al.,
