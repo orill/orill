@@ -1,14 +1,19 @@
-==========
-ORILL Code
-==========
+=====
+ORILL
+=====
 
-`ORILL Code <http://orill.readthedocs.io/>`_ is a 1D transmutation, fuel depletion (burn-up) and radiological protection code useful for nuclear research reactors design and operational safety.
+`ORILL <http://orill.readthedocs.io/>`_ is a code suite for nuclear research reactors design and operational safety.
+
+- ORILL_CODE: 1D transmutation, fuel depletion, and radiological protection
+- MULTILLABY: multi-compartment model dispersion and transmutation
+- HARMATTILL: atmospheric plume dispersion and radiological consequences
+
 ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue-Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France.
 
-Actually, there is a need for such a pocket tool, which is not addressed by available heavy codes (FISPACT, CINDER, SERPENT, ORIGEN, VESTA, MURE).
+Actually, there is a need for such pocket tools that not addressed by available heavy codes.
 
 The name “ORILL” comes from “ILL” and
-the prefix “OR” is a tribute to the excellent `ORIP_XXI <https://inis.iaea.org/search/search.aspx?orig_q=RN:40084890>`__  
+the prefix “OR” is a tribute to the excellent `ORIP_XXI <https://github.com/roeug/ORIP_XXI>`__  
 freeware from *E.G.Romanov, V.A.Tarasov, F.Z.Vahetov,
 Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
 
