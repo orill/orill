@@ -4,7 +4,7 @@ ORILL
 
 `ORILL <http://orill.readthedocs.io/>`_ is a code suite for nuclear research reactors design and operational safety.
 
-- ORILL_CODE: 1D transmutation, fuel depletion, and radiological protection
+- ORILLCODE: 1D transmutation, fuel depletion, and radiological protection
 - MULTILLABY: multi-compartment model dispersion and transmutation
 - HARMATTILL: atmospheric plume dispersion and radiological consequences
 
