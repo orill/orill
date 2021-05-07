@@ -2,5 +2,5 @@
    :maxdepth: 1
    :glob:
 
-   ../readme
+   ../index
    *
