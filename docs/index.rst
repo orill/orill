@@ -24,6 +24,8 @@ Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
    :glob:
 
    orill/readme
+   multi/readme
+   harma/readme
 
 
 
