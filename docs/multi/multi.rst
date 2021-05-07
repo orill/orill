@@ -1,1 +1,3 @@
-MULTILLABY: multi-compartment model dispersion and transmutation
+MULTILLABY
+----------
+Multi-compartment model dispersion and transmutation
