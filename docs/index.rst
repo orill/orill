@@ -21,7 +21,6 @@ Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
 
 .. toctree::
    :maxdepth: 1
-   :glob:
 
    orill/readme
    multi/readme
