@@ -1,11 +1,11 @@
 ===========================================
-`ORILL Code <http://orill.readthedocs.io>`_
+`ORILLCODE <http://orill.readthedocs.io>`_
 ===========================================
 
 Purpose
 -------
 
-ORILL Code is a 1D transmutation, fuel depletion (burn-up), and radiological protection code useful for nuclear research reactors design and operational safety. ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France. 
+ORILLCODE is a 1D transmutation, fuel depletion (burn-up), and radiological protection code useful for nuclear research reactors design and operational safety. ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France. 
 
 General Features
 ----------------
