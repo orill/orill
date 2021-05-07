@@ -1,5 +1,8 @@
 .. toctree::
    :maxdepth: 1
-   :glob:
 
-   *
+   orill
+   nucdata
+   techfeatures
+   results
+   usage
