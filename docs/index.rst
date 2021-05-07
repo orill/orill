@@ -18,14 +18,14 @@ freeware from *E.G.Romanov, V.A.Tarasov, F.Z.Vahetov,
 Research Institute of Atomic Reactors, Dimitrovgrad, Russia.*
 
 
+.. only:: html
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 1
 
-   orill/index
-   multi/index
-   harma/index
-
+    orill/index
+    multi/index
+    harma/index
 
 
 
