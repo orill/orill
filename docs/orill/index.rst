@@ -5,7 +5,7 @@ ORILLCODE
 .. toctree::
    :maxdepth: 1
 
-   orillcode
+   orill
    nucdata
    techfeatures
    results
