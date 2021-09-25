@@ -1,7 +1,7 @@
 ==========
 MULTILLABY
 ==========
-Multi-compartment model dispersion and transmutation
+Multi-compartment model dispersion and transmutation.
 
 Purpose
 -------
@@ -9,11 +9,11 @@ Purpose
 MULTILLABY is a multi-compartment model for nuclide dispersion with the following physical phenomenon:
 
 :mixing: in a compartment volume
-:transfert: from one compartment to another
+:transfert: from one compartment to another compartment
 :deposition: on a compartment walls or inside a filter
 :filtration: from one compartment to another
-:release: from the walls of a compartment or from a filter
-:decay: between isotopes
+:release: from walls of a compartment or from a filter into another compartment
+:decay: between isotopes individualized with one or several chemical form
 
 Isotopes are individualized with one or several chemical form (example Iodine: I2, ICH3 or I aerosol). Parameters of each physical phenomenon can be set for each chemical form.
 
