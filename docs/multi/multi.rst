@@ -9,6 +9,7 @@ Purpose
 MULTILLABY is a multi-compartment model for nuclide dispersion with the following physical phenomenon:
 
 :mixing: in a compartment volume
+:transfert: from one compartment to another
 :deposition: on a compartment walls or inside a filter
 :filtration: from one compartment to another
 :release: from the walls of a compartment or from a filter
