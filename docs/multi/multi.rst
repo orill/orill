@@ -21,6 +21,6 @@ General Features
 ----------------
 
 :Small: Code and nuclear data are small (only 200 Ko).
-:Fast: Quantities and integral of quantities are computed directly from generalized batman equations.
+:Fast: Quantities and integral of quantities are computed directly from generalized H. Bateman equations.
 :User friendly: A simple input instruction text file is needed.
 :Limits: The choice of the algorithm enables maximal speed and precision but loops are not possible (example: recirculation of air in a loop from a compartment back to a previous compartment is not computed).
