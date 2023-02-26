@@ -44,7 +44,7 @@ We have a mailing list located at: orill_code@googlegroups.com
 License
 -------
 
-**© Copyright 2017-2020**, Franck CHANTELOUP, all rights reserved. ORILL Code is for educational purpose.
+**© Copyright 2017-2023**, Franck CHANTELOUP, all rights reserved. ORILL Code is for educational purpose.
 
 ````
 
