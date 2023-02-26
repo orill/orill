@@ -3,10 +3,7 @@ ORILLCODE
 =========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :glob:
 
-   orill
-   nucdata
-   techfeatures
-   results
-   usage
+   *
