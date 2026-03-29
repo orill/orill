@@ -6,10 +6,10 @@ Multi-compartment model dispersion and transmutation.
 Purpose
 -------
 
-MULTILLABY is a multi-compartment model for nuclide dispersion with the following physical phenomenon:
+MULTILLABY is a general multi-compartment model for nuclide dispersion with the following physical phenomenon:
 
 :mixing: in a compartment volume
-:extraction: from one compartment to another compartment
+:extraction: from one compartment to another compartment (flow at each time interval)
 :transfert: instantaneous, from one compartment to another compartment
 :deposition: on a compartment walls or inside a filter
 :desorption: from one compartment to another compartment
@@ -18,7 +18,8 @@ MULTILLABY is a multi-compartment model for nuclide dispersion with the followin
 :release: from walls of a compartment or from a filter into another compartment
 :decay: between isotopes individualized with one or several chemical form
 
-Isotopes are individualized with one or several chemical form (example Iodine: I2, ICH3 or I aerosol). Parameters of each physical phenomenon can be set for each chemical form.
+Isotopes are individualized with one or several chemical form (example Iodine: I2, ICH3 or I aerosol). Parameters can be set for each chemical form, each Z or each isotope.
+Up to 64 compartments and 3820 isotopes from ENDF/B-VIII.0.
 
 General Features
 ----------------
