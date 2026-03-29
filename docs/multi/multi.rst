@@ -19,6 +19,7 @@ MULTILLABY is a general multi-compartment model for nuclide dispersion with the 
 :decay: between isotopes individualized with one or several chemical form
 
 Isotopes are individualized with one or several chemical form (example Iodine: I2, ICH3 or I aerosol). Parameters can be set for each chemical form, each Z or each isotope.
+
 Up to 64 compartments and 3820 isotopes from ENDF/B-VIII.0.
 
 General Features
