@@ -26,6 +26,6 @@ General Features
 ----------------
 
 :Small: Code and nuclear data are small (only 500 Ko).
-:Fast: Quantities and integral of quantities are computed directly from generalized H. Bateman equations or by a stiff ODE solver.
+:Fast: Quantities and integral of quantities are computed directly from generalized H. Bateman equations or a stiff ODE solver.
 :User friendly: A simple input instruction text file is needed.
 :Limits: The choice of the analytical algorithm (generalized H. Bateman) enables maximal speed but loops can only be computed with a stiff ODE solver (example: recirculation of air in a loop from a compartment back to a previous compartment).
