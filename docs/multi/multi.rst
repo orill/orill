@@ -25,7 +25,7 @@ Up to 64 compartments and 3820 isotopes from ENDF/B-VIII.0.
 General Features
 ----------------
 
-:Small: Code and nuclear data are small (only 200 Ko).
+:Small: Code and nuclear data are small (only 500 Ko).
 :Fast: Quantities and integral of quantities are computed directly from generalized H. Bateman equations or by a stiff ODE solver.
 :User friendly: A simple input instruction text file is needed.
-:Limits: The choice of the analytical algorithm enables maximal speed but loops can only be computed with a stiff ODE solver (example: recirculation of air in a loop from a compartment back to a previous compartment).
+:Limits: The choice of the analytical algorithm (generalized H. Bateman) enables maximal speed but loops can only be computed with a stiff ODE solver (example: recirculation of air in a loop from a compartment back to a previous compartment).
