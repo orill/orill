@@ -9,7 +9,8 @@ ORILL
 - HARMATTILL: atmospheric plume dispersion and radiological consequences
 
 ORILL has been cooked at the **Nuclear Safety Unit** of the `Institut Laue-Langevin (ILL) <http://www.ill.eu>`_, Grenoble, France.
-Actually, there is a need for such pocket tools that not addressed by available heavy codes.
+
+There is **a need for such pocket tools** that not addressed by available heavy codes that are not economically efficient to get quick answers (MCNP/VESTA, FISPACT-II, CERES, etc.).
 
 The name “ORILL” comes from “ILL” and
 the prefix “OR” is a tribute to the excellent `ORIP_XXI <https://github.com/roeug/ORIP_XXI>`__  
